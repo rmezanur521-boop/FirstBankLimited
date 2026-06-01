@@ -67,46 +67,7 @@
 
 ---
 
-## 🗂️ Project Structure
-FirstBankLimited/
-│
-├── main.py                        # Application entry point
-├── requirements.txt               # Python dependencies
-├── .env                           # Environment config (not committed)
-│
-├── config/
-│   └── database.py                # PostgreSQL connection pool
-│
-├── models/                        # Database layer
-│   ├── admin.py
-│   ├── employee.py
-│   ├── customer.py
-│   ├── account.py
-│   ├── transaction.py
-│   └── loan.py
-│
-├── controllers/                   # Business logic
-│   ├── auth_controller.py
-│   ├── account_controller.py
-│   ├── customer_controller.py
-│   └── loan_controller.py
-│
-├── views/
-│   ├── shared/
-│   │   ├── login_window.py        # Login + Registration
-│   │   └── widgets.py             # Reusable UI components
-│   ├── admin/                     # Full admin panel
-│   ├── employee/                  # Employee panel
-│   └── customer/                  # Customer portal
-│
-├── utils/
-│   ├── helpers.py                 # Formatters & validators
-│   ├── image_handler.py           # Photo/document storage
-│   └── fee_calculator.py          # Transfer fee logic
-│
-└── uploads/                       # Stored KYC documents & photos
 
----
 
 ## 🚀 Getting Started
 
@@ -204,19 +165,6 @@ Key database features:
 
 ---
 
-## 📸 Screenshots
-
-> Add your screenshots here after running the application.
-
-| Login Screen | Admin Dashboard |
-|---|---|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
-
-| Loan Management | Fund Transfer |
-|---|---|
-| ![Loans](screenshots/loans.png) | ![Transfer](screenshots/transfer.png) |
-
----
 
 ## 🔒 Security Features
 
